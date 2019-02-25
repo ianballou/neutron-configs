@@ -178,7 +178,8 @@ tunnel_id_ranges=1:4094
 switch_heartbeat_time = 30
 
 [ml2_mech_cisco_nexus:<switch addr>]
+host_ports_mapping=dell-12:[1/36]
 username=<switch user>
 password=<switch pass>
-
+physnet=datacentre
 https_verify=False
